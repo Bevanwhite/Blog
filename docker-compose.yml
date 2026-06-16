@@ -1,0 +1,17 @@
+services:
+    webmvc:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: jefferywhite/blog:latest
+        container_name: webmvc
+        ports:
+            - "7000:8080"
+        environment:
+            - ASPNETCORE_ENVIRONMENT=PRODUCTION
+        networks:
+            - my_network
+
+networks:
+    my_network:
+        driver: bridge

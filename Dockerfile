@@ -1,0 +1,17 @@
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
+WORKDIR /app
+EXPOSE 8080
+
+# copy csproj and restore as distinct
+COPY *.csproj ./
+RUN dotnet restore
+
+# copy everything else and build
+COPY . ./
+RUN dotnet publish Blog.csproj -c Release -o /app/publish
+
+# build runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
+WORKDIR /app
+COPY --from=build-env /app/publish .
+ENTRYPOINT [ "dotnet", "Blog.dll" ]
