@@ -23,6 +23,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(opt =>
         opt.UseNpgsql(connectionString);
 });
 
+Console.WriteLine(connectionString);
+
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 {
         options.Password.RequireDigit = false;
