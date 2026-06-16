@@ -8,7 +8,7 @@ RUN dotnet restore
 
 # copy everything else and build
 COPY . .
-RUN dotnet publish Blog.csproj -c Release -o /app/publish -p:EnableDefaultContentItems=false
+RUN dotnet publish Blog.csproj -c Release -o /app/publish
 
 # build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0

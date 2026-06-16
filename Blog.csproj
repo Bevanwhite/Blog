@@ -18,6 +18,5 @@
   <ItemGroup>
       <Content Include="wwwroot\lib\Trumbowyg-main\dist\**" />
       <Content Include="wwwroot\content\blog\**"/>
-      <Content Include="wwwroot\content\static\**"/>
   </ItemGroup>
 </Project>
