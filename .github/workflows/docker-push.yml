@@ -28,8 +28,6 @@ jobs:
                   context: . # ⬅️ Builds from the root (where your Dockerfile is)
                   push: true
                   tags: jefferywhite/blog:latest # ⬅️ Matches your docker-compose image name
-                  cache-from: type=gha
-                  cache-to: type=gha,mode=max
 
             - name: Trigger Deploy on Render
               run: |
