@@ -14,11 +14,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.36" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.29" />
   </ItemGroup>
-
-  <ItemGroup>
-      <None Include="wwwroot\**">
-          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-  </ItemGroup>
-
 </Project>
