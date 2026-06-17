@@ -16,7 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-      <None Include="wwwroot\*" />
+      <None Include="wwwroot\**">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
   </ItemGroup>
 
 </Project>
