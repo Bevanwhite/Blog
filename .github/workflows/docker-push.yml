@@ -25,7 +25,7 @@ jobs:
             - name: Build and push
               uses: docker/build-push-action@v5
               with:
-                  context: . # ⬅️ Builds from the root (where your Dockerfile is)
+                  context: "{{defaultContext}}:blog" # ⬅️ Builds from the root (where your Dockerfile is)
                   push: true
                   tags: jefferywhite/blog:latest # ⬅️ Matches your docker-compose image name
 
