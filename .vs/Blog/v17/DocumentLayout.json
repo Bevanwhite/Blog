@@ -1,10 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\CommercePromote\\Documents\\beva\\tryout\\Csharp Progamming\\basic\\Blog\\",
+  "WorkspaceRootPath": "C:\\Users\\CommercePromote\\Documents\\beva\\tryout\\Blog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF9433FD-C284-4650-B5A5-BF7874209A7B}|blog.csproj|c:\\users\\commercepromote\\documents\\beva\\tryout\\csharp progamming\\basic\\blog\\.config\\dotnet-tools.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CF9433FD-C284-4650-B5A5-BF7874209A7B}|blog.csproj|solutionrelative:.config\\dotnet-tools.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CommercePromote\\Documents\\beva\\tryout\\Csharp Progamming\\basic\\Blog\\.config\\dotnet-tools.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,13 +60,11 @@
               "DocumentIndex": 0,
               "Title": "dotnet-tools.json",
               "DocumentMoniker": "C:\\Users\\CommercePromote\\Documents\\beva\\tryout\\Csharp Progamming\\basic\\Blog\\.config\\dotnet-tools.json",
-              "RelativeDocumentMoniker": ".config\\dotnet-tools.json",
+              "RelativeDocumentMoniker": "..\\Csharp Progamming\\basic\\Blog\\.config\\dotnet-tools.json",
               "ToolTip": "C:\\Users\\CommercePromote\\Documents\\beva\\tryout\\Csharp Progamming\\basic\\Blog\\.config\\dotnet-tools.json",
-              "RelativeToolTip": ".config\\dotnet-tools.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\Csharp Progamming\\basic\\Blog\\.config\\dotnet-tools.json",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-08T09:53:27.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T09:53:27.063Z"
             }
           ]
         }
